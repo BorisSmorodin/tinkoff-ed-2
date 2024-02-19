@@ -43,7 +43,6 @@ async def get_application_status2(identifier: str) -> Response:
 
 
 async def perform_operation(identifier: str) -> ApplicationResponse:
-    # TODO дополнить реализацию
     retries_counter = 0
     timer = datetime.now()
     if identifier == 1:
